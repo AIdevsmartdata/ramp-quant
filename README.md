@@ -44,6 +44,7 @@ tools/                  Quantization utilities
   benchmark_gguf.py     Perplexity + functional domain tests
   kurtboost_bf16.py     Kurtosis-based per-tensor analysis
   build_mtp_gguf.py     Build GGUF with MTP tensors
+  build_mtp_gguf_v3.py  Build GGUF with MTP tensors (v3, shard injection)
   inject_mtp_tensors.py Inject MTP tensors into existing GGUF
   patch_gguf_mtp.py     Patch GGUF for MTP support
 ```
@@ -66,7 +67,7 @@ python tools/benchmark_gguf.py path/to/model.gguf --test-functional --test-ppl
 
 ## The RAMP v2 model
 
-The optimized Qwen3.5-35B-A3B-RAMP-v2-15G GGUF is available on HuggingFace: [chimere-ai/Qwen3.5-35B-A3B-RAMP-v2-15G](https://huggingface.co/chimere-ai/Qwen3.5-35B-A3B-RAMP-v2-15G) (coming soon).
+The optimized Qwen3.5-35B-A3B-RAMP-v2-15G GGUF is available on HuggingFace: [Kevletesteur/Qwen3.5-35B-A3B-RAMP-v2-15G](https://huggingface.co/Kevletesteur/Qwen3.5-35B-A3B-RAMP-v2-15G).
 
 ## Related repos
 
