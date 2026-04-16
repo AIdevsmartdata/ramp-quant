@@ -76,6 +76,19 @@ The optimized Qwen3.5-35B-A3B-RAMP-v2-15G GGUF is available on HuggingFace: [Kev
 - [chimere](https://github.com/AIdevsmartdata/chimere) — Rust inference runtime that uses RAMP-quantized models
 - [chimere-odo](https://github.com/AIdevsmartdata/chimere-odo) — Inference orchestrator
 
+## Citation
+
+If you use or reference RAMP-Quant, please cite the original RAMP paper:
+
+```bibtex
+@article{gautam2026ramp,
+  title={RAMP: Reinforcement Adaptive Mixed Precision Quantization for Efficient On Device LLM Inference},
+  author={Gautam, Arpit Singh and Jha, Saurabh},
+  journal={arXiv preprint arXiv:2603.17891},
+  year={2026}
+}
+```
+
 ## License
 
 Apache 2.0 — see [LICENSE](LICENSE).
